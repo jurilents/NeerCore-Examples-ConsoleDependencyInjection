@@ -3,7 +3,10 @@ using NeerCore.DependencyInjection.Extensions;
 using NeerCore.Examples.ConsoleDependencyInjection.Services;
 
 var services = new ServiceCollection();
-services.AddServicesFromCurrentAssembly();
+services.AddAllServices(options =>
+{
+    options.DefaultLifetime = ServiceLifetime.Transient;
+});
 var serviceProvider = services.BuildServiceProvider();
 
 var commandManager = serviceProvider.GetRequiredService<CommandInvoker>();

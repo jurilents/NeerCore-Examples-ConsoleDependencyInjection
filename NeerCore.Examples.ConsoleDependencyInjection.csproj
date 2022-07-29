@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="NeerCore.DependencyInjection" Version="1.0.0-beta2" />
+	  <PackageReference Include="NeerCore.DependencyInjection" Version="1.4.0" />
 	</ItemGroup>
 
 </Project>

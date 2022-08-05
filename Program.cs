@@ -3,8 +3,7 @@ using NeerCore.DependencyInjection.Extensions;
 using NeerCore.Examples.ConsoleDependencyInjection.Services;
 
 var services = new ServiceCollection();
-// TODO: Use 'AddAllServices' after NeerCore v1.5.0
-services.AddServicesFromCurrentAssembly(options =>
+services.AddAllServices(options =>
 {
     options.DefaultLifetime = ServiceLifetime.Transient;
 });

@@ -1,4 +1,4 @@
-# Console Application with DI
+# Console Application with Dependency Injection
 
 > Build with [NeerCore](https://github.com/jurilents/NeerCore) library.
 

@@ -5,3 +5,5 @@
 ----------------------
 
 A simple example of a console application using Dependency Injection.
+
+Here is an example of using DI for a console apps with NeerCore.
